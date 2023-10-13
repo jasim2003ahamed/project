@@ -84,6 +84,18 @@ nav a:hover{
 
 /* responsive nav bar */
 @media all and (max-width:600px){
+
+    .landing{
+        width: 100%;
+    }
+ 
+
+    .h2{
+        display: flex;
+        justify-content: center;
+    }
+
+
     nav{
         flex-direction: column;
     }
@@ -111,7 +123,8 @@ nav a:hover{
 
     .dubai1,.newyork,.usa,.australia,.spain,.england{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        
     }
 
 
