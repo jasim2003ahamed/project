@@ -83,7 +83,7 @@ nav a:hover{
 }
 
 /* responsive nav bar */
-@media all and (max-width:545px){
+@media all and (max-width:600px){
     nav{
         flex-direction: column;
     }
@@ -176,7 +176,7 @@ nav a:hover{
 }
 
 
-@media all and (min-width:572px){
+@media all and (min-width:600px){
 
     #uae{
         width: 45vw;
