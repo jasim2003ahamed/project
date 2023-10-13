@@ -29,7 +29,7 @@ header {
     letter-spacing: .1rem;
     font-size: 1.5rem;
     position: relative;
-    right: 4rem;
+    right: 6rem;
 }
 
 #logo{
@@ -442,12 +442,13 @@ h3{
     padding-top: 3em;
     font-weight: bold;
     font-size: 3rem;
+    
 
 }
 
 h2{
     margin-top: 3rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     display: flex;
     justify-content: center; 
     color: rgb(14, 13, 13);
