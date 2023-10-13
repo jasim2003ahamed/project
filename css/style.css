@@ -89,7 +89,6 @@ nav a:hover{
     .landing{
     background-image: url(../media/emi.jpg);
     background-size: cover;
-    justify-content: space-around;
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -187,13 +186,6 @@ nav a:hover{
         
     }
     
-
-   
-
-
-
-   
-
     
 }
 
