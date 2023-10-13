@@ -84,18 +84,27 @@ nav a:hover{
 }
 
 /* responsive nav bar */
-@media all and (max-width:600px){
+@media all and (max-width:599px){
+
+
+    body{
+        width: 100vw;
+    }
+
+   
 
     .landing{
-    background-image: url(../media/emi.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-position: center;
+        background-image: url(../media/emi.jpg);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
 }
 
     .login{
-        margin-right:2em;
+        position: relative;
+        right: .7rem;
+        
     }
 
     .h2{
@@ -130,9 +139,7 @@ nav a:hover{
     }
 
     .dubai1,.newyork,.usa,.australia,.spain,.england{
-        display: flex;
-        justify-content: center;
-        
+    
     }
 
 
@@ -145,7 +152,7 @@ nav a:hover{
         box-sizing: border-box;
         background-size: cover;
         clip-path: circle();
-        margin-left: 10rem;
+        margin-left: 7.5rem;
         margin-top: 3rem;
         
     }
@@ -158,7 +165,7 @@ nav a:hover{
         box-sizing: border-box;
         background-size: cover;
         clip-path: circle();
-        margin-left: 10rem;
+        margin-left: 7.5rem;
         margin-top: 3rem;
     }
     
@@ -168,7 +175,7 @@ nav a:hover{
         box-sizing: border-box;
         background-size: cover;
         clip-path: circle();
-        margin-left: 10rem;
+        margin-left: 7.5rem;
         
         
     
@@ -182,7 +189,7 @@ nav a:hover{
         background-size: cover;
         clip-path: circle();
         margin-top: 3rem;
-        margin-left: 10rem;
+        margin-left: 7.5rem;
         
     }
     
@@ -191,6 +198,10 @@ nav a:hover{
 
 
 @media all and (min-width:600px){
+
+    body{
+        width: 100%;
+    }
 
     #uae{
         width: 45vw;
