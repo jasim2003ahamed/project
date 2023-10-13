@@ -1,0 +1,713 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing{
+    background-image: url(../media/emi.jpg);
+    background-size: cover;
+    justify-content: space-around;
+    height: 100vh;
+    background-position: center;
+}
+
+
+header {
+    display: flex;
+    border: 1px solid #666666;
+    background-color:rgba(49, 48, 48, 0.966);
+    height: 30px;
+    padding: 1em;
+    padding-left:8em;
+}
+
+.emi{
+    text-decoration: none;
+    color: #D80032;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    position: relative;
+    right: 4rem;
+}
+
+#logo{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   
+}
+
+#logo{
+    border: 1px solid white;
+    padding: .3em .8em;
+}
+
+nav{
+    display: flex;
+    font-size: 16px;
+    flex:4;
+    width: 100%;
+
+    
+}
+
+
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+   
+}
+.menu{
+    margin-right:1em;
+    display: none;
+    background-color:rgba(49, 48, 48, 0.966);
+}
+
+#logo:hover{
+    color: #3D0C11;
+    background-color: white;
+}
+
+nav a:hover{
+    color:brown;
+}
+
+/* responsive nav bar */
+@media all and (max-width:900px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav li{
+        display: block;
+        padding: 10px 0;
+
+    
+    }
+
+    ul{
+        display:none;
+        
+    }
+
+    .menu{
+        display: block;
+        
+    }
+
+    .showmenu{
+        display: block;
+        background-color:rgba(49, 48, 48, 0.966);
+        width: 100%;
+    }
+
+    .dubai1,.newyork,.usa,.australia,.spain,.england{
+        position: relative;
+        left: 4rem;
+        justify-content: center;
+    }
+
+
+    
+
+    .ourplanet{
+        background-image: url(../media/ourplanet.jpg);
+        width: 165px;
+        height: 165px;
+        box-sizing: border-box;
+        background-size: cover;
+        clip-path: circle();
+        margin-left: 10rem;
+        margin-top: 3rem;
+        
+    }
+    
+
+    .ourpeople{
+        background-image: url(../media/ourpeople.jpg);
+        width: 165px;
+        height: 165px;
+        box-sizing: border-box;
+        background-size: cover;
+        clip-path: circle();
+        margin-left: 10rem;
+        margin-top: 3rem;
+    }
+    
+    .oursflights{
+        background-image: url(../media/oursflights.png);width: 165px;
+        height: 165px;
+        box-sizing: border-box;
+        background-size: cover;
+        clip-path: circle();
+        margin-left: 10rem;
+        
+        
+    
+    }
+
+    .ourcom{
+        background-image: url(../media/ourcom.jpg);
+        width: 165px;
+        height: 165px;
+        box-sizing: border-box;
+        background-size: cover;
+        clip-path: circle();
+        margin-top: 3rem;
+        margin-left: 10rem;
+        
+    }
+    
+
+   
+
+
+
+   
+
+    
+}
+
+
+@media all and (min-width:900px){
+
+    #uae{
+        width: 45vw;
+        margin-left: 3rem;
+    }
+    
+    .first,.second,.third,.fourth{
+        border: 1px solid black;
+        height: 47.2;
+        width: 20vw;
+        margin: 1rem;
+    }
+        
+    .fs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .tf{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .page3{
+        display: flex;
+        justify-content: space-around;
+     
+    }
+    h2{
+        font-size: 2rem;
+    }
+    
+    .circle{
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+
+    
+    
+
+     
+}
+
+
+.maintext{
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+.tag1{
+    color:  #3D0C11;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tag2{
+    color: #3D0C11;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight:500;
+}
+
+.tag3{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 8em;
+}
+
+.btn{
+    margin-top: 1rem;
+    margin-left: 12rem;
+    background-color: #D80032;
+    padding:.5rem 2em;
+    color: aliceblue;
+    font-weight: bold;
+    border: #D80032;
+    box-shadow: 3px 3px #3D0C11;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color:#3D0C11;
+}
+
+
+
+
+
+
+
+
+#page2{
+    background-color: rgba(241, 236, 236, 0.459);
+    gap: 3rem;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center; 
+    color: rgb(10, 10, 10);
+    font-weight: normal;
+}
+
+.cen{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.dubai1{
+    background-image:url(../media/dubai1.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin: 2rem;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+.dubai1:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+.newyork{
+    background-image:url(../media/dubai2.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin:2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.newyork:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
+}
+
+.usa{
+    background-image:url(../media/usa.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin:2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.usa:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
+}
+
+.australia{
+    background-image:url(../media/australia.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin:2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.australia:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
+}
+
+
+.england{
+    background-image:url(../media/england.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin:2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.england:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
+}
+
+.spain{
+    background-image:url(../media/spain.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    margin:2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.spain:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+.see{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: .6rem 1rem;
+    margin-left: 5rem;
+    width: 10rem;
+    color: aliceblue;
+    box-shadow: 3px 3px rgb(82, 77, 77);
+    border-radius: 2px;
+    background-color: rgb(197, 149, 30);
+}
+
+.see:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.student{
+    background-image: url(../media/students.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    justify-content: space-around;
+    margin-top: 3em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+h2{
+    margin-top: 3rem;
+    letter-spacing: .2rem;
+    display: flex;
+    justify-content: center; 
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+}
+
+h5{
+    margin-top: 3rem;
+    letter-spacing: .5em;
+    display: flex;
+    justify-content: center; 
+    color: rgb(10, 10, 10);
+    font-weight: lighter;
+}
+
+h6{
+    display: flex;
+    justify-content: center; 
+    color: rgb(14, 13, 13);
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+
+/* page3  */
+
+#uae{
+    background-image: url(../media/uae.jpg);
+    background-size: cover; 
+    background-position: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#uae:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+.uae{
+    padding:1rem;
+    letter-spacing: .5rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.dis{
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.lea{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.first,.second,.third,.fourth{
+    border: 1px solid #ffffff;
+    margin: 1rem;
+    height: 47.2vh;
+    border-radius: 5px;
+}
+
+.first:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
+}
+
+.second:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+.third:hover{
+    box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+.fourth:hover{
+    box-shadow:  2px 2px 10px 10px rgb(153, 152, 152);
+}
+
+
+
+.cabin{
+    padding:.3rem;
+    letter-spacing: .1rem;
+    display: flex;
+    padding-left: 1rem;
+    color: #ffffff;
+}
+
+.class{
+    color: #ffffff;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.first{
+    background-image: url(../media/first.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.second{
+    background-image: url(../media/business.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.third{
+    background-image: url(../media/premium.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.fourth{
+    background-image: url(../media/economy.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.oursflights{
+    background-image: url(../media/oursflights.png);width: 165px;
+    height: 165px;
+    box-sizing: border-box;
+    background-size: cover;
+    clip-path: circle();
+    
+    
+
+}
+
+.ourplanet{
+    background-image: url(../media/ourplanet.jpg);
+    width: 165px;
+    height: 165px;
+    box-sizing: border-box;
+    background-size: cover;
+    clip-path: circle();
+  
+   
+}
+
+.ourpeople{
+    background-image: url(../media/ourpeople.jpg);
+    width: 165px;
+    height: 165px;
+    box-sizing: border-box;
+    background-size: cover;
+    clip-path: circle();
+    
+    
+}
+
+.ourcom{
+    background-image: url(../media/ourcom.jpg);
+    width: 165px;
+    height: 165px;
+    box-sizing: border-box;
+    background-size: cover;
+    clip-path: circle();
+   
+    
+}
+
+
+
+
+
+
+
+
+/* ending page */
+.ending{
+    margin-top: 4rem;
+    background-color: #333333;
+    border:1px solid #666666;
+
+}
+
+h4{
+    font-weight:500;
+    font-size: 1.2rem;
+    color:#ffffff;
+}
+
+.ending a{
+    padding-bottom: .2rem;
+    font-size: .9rem;
+    text-decoration: none;
+    display: block;
+    color: rgba(250, 250, 250, 0.596);
+
+}
+
+.about,.help,.book,.manage,.before,.where,.experience,.loyality,.emiratesapp,.sub,.connect{
+    
+    margin: 4rem;
+
+}
+
+.ending a:hover{
+    background-color: #666666;
+    width: auto;
+
+}
+
+.firstlayer,.secondlayer,.thirdlayer,.fourthlayer{
+    border-bottom: 1px solid rgba(229, 236, 243, 0.42);
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div input{
+    width: 200px;
+    height: 30px;
+    margin-top: 1rem;
+}
+
+i{
+    color: #ffffff;
+    padding: .5rem;
+    font-size: 2rem;
+    
+    
+
+}
+
+.app,.play{
+    border: 1px solid black;
+    background-color: black;
+    width: 250px;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.app a{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.play a{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+
+.social a{
+    display: inline;
+    
+}
+
+.so i{
+    border: 1px solid black;
+    width: 29px;
+    background-color: black;
+    font-size: 1.7rem;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    
+}
+
+.acc{
+    padding: 1rem;
+    color: rgba(250, 250, 250, 0.596);
+    font-size: .9rem;
+}
+
+.copy{
+    color: #ffffff;
+    padding: .9rem;
+    font-size: .8rem;
+}
+
+
+
+
+
