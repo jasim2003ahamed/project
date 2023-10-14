@@ -143,7 +143,7 @@ nav a:hover{
 
     
 .maintext{
-    padding-top: 4rem;
+    padding-top: 5rem;
     padding-left: 1rem;
 }
 
@@ -311,6 +311,14 @@ nav a:hover{
         background-color: rgba(173, 168, 168, 0);
     }
 
+    #page2{
+    
+        margin: 2rem;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    }
+
 
 }
 
@@ -356,7 +364,7 @@ nav a:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .tag2{
@@ -364,7 +372,7 @@ nav a:hover{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: -2px;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight:500;
 }
 
@@ -373,13 +381,13 @@ nav a:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding-left: 8em;
 }
 
     .btn{
         margin-top: 1rem;
-        margin-left: 12rem;
+        margin-left: 30rem;
         background-color: #D80032;
         padding:.5rem 2em;
         color: aliceblue;
@@ -387,6 +395,7 @@ nav a:hover{
         border: #D80032;
         box-shadow: 3px 3px #3D0C11;
         border-radius: 2px;
+        display: none;
     }
     
 
@@ -530,14 +539,6 @@ h3{
     font-weight: normal;
 }
 
-#page2{
-    
-    margin: 2rem;
-    
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-}
 
 .cen{
     color: aliceblue;
