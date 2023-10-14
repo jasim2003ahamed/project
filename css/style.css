@@ -104,6 +104,7 @@ nav a:hover{
     .login{
         position: relative;
         right: .8rem;
+        display: none;
         
     }
 
@@ -138,6 +139,19 @@ nav a:hover{
         width: 100%;
     }
 
+
+    .btn{
+        margin-top: 1rem;
+        margin-left: 10rem;
+        background-color: #D80032;
+        padding:.5rem 2em;
+        color: aliceblue;
+        font-weight: bold;
+        border: #D80032;
+        box-shadow: 3px 3px #3D0C11;
+        border-radius: 2px;
+    }
+    
 
 
 
@@ -199,7 +213,7 @@ nav a:hover{
         background-image:url(../media/dubai1.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -209,7 +223,7 @@ nav a:hover{
         background-image:url(../media/dubai2.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -220,7 +234,7 @@ nav a:hover{
         background-image:url(../media/usa.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -231,7 +245,7 @@ nav a:hover{
         background-image:url(../media/australia.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -241,7 +255,7 @@ nav a:hover{
         background-image:url(../media/england.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -252,7 +266,7 @@ nav a:hover{
         background-image:url(../media/spain.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vw;
+        width: 85vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -284,6 +298,19 @@ nav a:hover{
     body{
         width: 100%;
     }
+
+    .btn{
+        margin-top: 1rem;
+        margin-left: 12rem;
+        background-color: #D80032;
+        padding:.5rem 2em;
+        color: aliceblue;
+        font-weight: bold;
+        border: #D80032;
+        box-shadow: 3px 3px #3D0C11;
+        border-radius: 2px;
+    }
+    
 
     #uae{
         width: 45vw;
@@ -440,17 +467,6 @@ nav a:hover{
     padding-left: 8em;
 }
 
-.btn{
-    margin-top: 1rem;
-    margin-left: 12rem;
-    background-color: #D80032;
-    padding:.5rem 2em;
-    color: aliceblue;
-    font-weight: bold;
-    border: #D80032;
-    box-shadow: 3px 3px #3D0C11;
-    border-radius: 2px;
-}
 
 .btn:hover{
     background-color: aliceblue;
