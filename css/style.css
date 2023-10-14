@@ -3,7 +3,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .landing{
-    background-image: url(../media/emi.jpg);
+    background-image: url(../media/ground.jpg);
     background-size: cover;
     justify-content: space-around;
     height: 100vh;
@@ -68,7 +68,7 @@ nav a{
    
 }
 .menu{
-    margin-right:1em;
+    margin-right:1.5em;
     display: none;
     background-color:rgba(49, 48, 48, 0.966);
 }
@@ -95,7 +95,7 @@ nav a:hover{
    
 
     .landing{
-        background-image: url(../media/emi.jpg);
+        background-image: url(../media/ground.jpg);
         height: 100vh;
         width: 100%;
         background-position: center;
@@ -103,7 +103,7 @@ nav a:hover{
 
     .login{
         position: relative;
-        right: .7rem;
+        right: .8rem;
         
     }
 
@@ -138,9 +138,7 @@ nav a:hover{
         width: 100%;
     }
 
-    .dubai1,.newyork,.usa,.australia,.spain,.england{
-        justify-content: flex-start;
-    }
+
 
 
     
@@ -196,8 +194,77 @@ nav a:hover{
     .ending{
         width: 100vw;
     }
+
+    .dubai1{
+        background-image:url(../media/dubai1.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
     
+    .newyork{
+        background-image:url(../media/dubai2.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
     
+
+    .usa{
+        background-image:url(../media/usa.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+
+    .australia{
+        background-image:url(../media/australia.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .england{
+        background-image:url(../media/england.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+
+    .spain{
+        background-image:url(../media/spain.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+
+    #page2{
+        background-color: rgba(173, 168, 168, 0);
+        height: 1350px;
+    }
+
+
 }
 
 
@@ -208,6 +275,7 @@ nav a:hover{
         padding: 0px;
         width: 100%;
         overflow-x: hidden;
+    
     }
 }
 
@@ -255,6 +323,85 @@ nav a:hover{
         justify-content: space-around;
         
     }
+    
+    .dubai1{
+        background-image:url(../media/dubai1.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .newyork{
+        background-image:url(../media/dubai2.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .usa{
+        background-image:url(../media/usa.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .australia{
+        background-image:url(../media/australia.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+
+    .england{
+        background-image:url(../media/england.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .spain{
+        background-image:url(../media/spain.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 50vh;
+        margin-top: 2rem;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+ 
+    
+    .dubai1,.newyork,.usa,.australia,.spain,.england{
+      margin-left: 2.3rem;
+    }
+
+
+    #page2{
+        height: 500px;
+        margin: 2rem;
+        background-color: rgba(219, 206, 206, 0.459);
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    }
+
+
 
     
     
@@ -312,18 +459,6 @@ nav a:hover{
 }
 
 
-
-
-
-
-
-
-#page2{
-    background-color: rgba(241, 236, 236, 0.459);
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-}
-
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -332,95 +467,55 @@ h3{
     font-weight: normal;
 }
 
+#page2{
+    
+    margin: 2rem;
+    
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+}
+
 .cen{
     color: aliceblue;
     display: flex;
+    margin-top: 1rem;
     justify-content: center;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 
-.dubai1{
-    background-image:url(../media/dubai1.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin: 2rem;
-    text-decoration: none;
-    border-radius: 3px;
 
-}
 .dubai1:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
 }
 
-.newyork{
-    background-image:url(../media/dubai2.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin:2em;
-    text-decoration: none;
-    border-radius: 3px;
-}
+
 
 .newyork:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
 }
 
-.usa{
-    background-image:url(../media/usa.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin:2em;
-    text-decoration: none;
-    border-radius: 3px;
-}
+
 
 .usa:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
 }
 
-.australia{
-    background-image:url(../media/australia.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin:2em;
-    text-decoration: none;
-    border-radius: 3px;
-}
+
 
 .australia:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
 }
 
 
-.england{
-    background-image:url(../media/england.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin:2em;
-    text-decoration: none;
-    border-radius: 3px;
-}
 
 .england:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152)
 }
 
-.spain{
-    background-image:url(../media/spain.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 50vh;
-    margin:2em;
-    text-decoration: none;
-    border-radius: 3px;
-}
+
 
 .spain:hover{
     box-shadow: 2px 2px 10px 10px rgb(153, 152, 152);
@@ -471,19 +566,19 @@ h2{
 
 h5{
     margin-top: 3rem;
-    letter-spacing: .5em;
+    letter-spacing: .3em;
     display: flex;
     justify-content: center; 
     color: rgb(10, 10, 10);
-    font-weight: lighter;
+    font-size: 1rem;
 }
 
 h6{
     display: flex;
     justify-content: center; 
-    color: rgb(14, 13, 13);
-    font-weight: lighter;
-    font-size: .9rem;
+    color: rgb(19, 19, 19);
+    font-weight:600;
+    font-size: .7rem;
 }
 
 
@@ -497,7 +592,7 @@ h6{
     height: 100vh;
     margin: 1rem;
     border-radius: 5px;
-    width: 95vw;
+    width: vw;
 }
 
 #uae:hover{
@@ -507,7 +602,7 @@ h6{
 .uae{
     padding:1rem;
     letter-spacing: .5rem;
-    font-weight: lighter;
+    font-weight:400;
     display: flex;
     justify-content: center;
 }
