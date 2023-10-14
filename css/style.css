@@ -199,7 +199,7 @@ nav a:hover{
         background-image:url(../media/dubai1.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -209,7 +209,7 @@ nav a:hover{
         background-image:url(../media/dubai2.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -220,7 +220,7 @@ nav a:hover{
         background-image:url(../media/usa.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -231,7 +231,7 @@ nav a:hover{
         background-image:url(../media/australia.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -241,7 +241,7 @@ nav a:hover{
         background-image:url(../media/england.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -252,7 +252,7 @@ nav a:hover{
         background-image:url(../media/spain.jpg);
         background-size: cover;
         height: 30vh;
-        width: 50vh;
+        width: 50vw;
         margin-top: 2rem;
         text-decoration: none;
         border-radius: 3px;
@@ -261,7 +261,6 @@ nav a:hover{
 
     #page2{
         background-color: rgba(173, 168, 168, 0);
-        height: 1350px;
     }
 
 
